@@ -1,0 +1,98 @@
+
+body{
+  background-color: #def7f6;
+}
+.container{
+  width: 100%;
+  box-sizing: border-box;
+}
+.row:before, 
+.row:after {
+        content:"";
+        display: table ;
+         clear:both;
+}
+
+/* determine how many columns you will have and divide 100 by that. so if 6 columns is how many you want, div 100 by 6. 1 col would be 16.67% */
+
+/* css attribute selector to cover all col-  --> [class*='col-'] */
+/* starting off with handheld -- mobile first */
+[class*='col-']{
+/*   float: left; */
+  min-height: 1px;
+  padding: 8px 0;
+}
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6 {
+  width: 100%;
+  float: left;
+}
+
+/* media query breakpoints:
+phone 480px;
+pad 768px;
+laptop 1200 to 1600 */
+@media (min-width: 480px) {
+  .col-1, .col-2{
+    width: 49%;
+    float: left;
+  }
+  .col-3, .col-4, .col-5, .col-6 {
+    width: 100%;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .col-1 {
+    width: 33%;
+    float: left;
+  }
+  .col-2{
+    width: 49%;
+    float: left;
+  }
+  .col-3{
+    width: 67%;
+    float: left;
+  }
+  .col-4, .col-5, .col-6 {
+    width: 100%;
+  }
+}
+@media (min-width: 1200px){
+  .container{
+    padding: 1em;
+  }
+  .col-1 {
+    width: 14%;
+    float: left;
+  }
+  .col-2{
+    width: 33%;
+    float: left;
+  }
+  .col-3{
+    width: 50%;
+/*     margin: 0 25%; */
+  }
+  .col-4{
+    width: 66%;
+    float: left;
+  }
+  .col-5{
+    width: 83%;
+    float: left;
+  } 
+  
+  .col-6 {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
