@@ -1,6 +1,93 @@
 body {
   background-color: #def7f6; }
 
+.warning {
+  background-color: #fff;
+  margin: 2em;
+  padding: 1em 2em;
+  border: 2px solid red;
+  border-radius: 1em; }
+
+#dragonfly {
+  margin-top: 0em;
+  width: 30em;
+  height: 30em;
+  border: 3px solid red;
+  background: url("./../images/tevka_dragonfly.jpg") no-repeat 50% 50%;
+  background-size: 30em; }
+
+.parts {
+  width: 20em;
+  padding: 0.75em;
+  background: #BE9C3D;
+  position: relative;
+  top: 1em;
+  left: -5em;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  transform: rotate(-20deg); }
+
+.parts {
+  width: 20em;
+  padding: 0.75em;
+  background: #BE9C3D;
+  position: relative;
+  top: 1em;
+  left: -5em;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  ransform: rotate(-20deg); }
+
+.parts:before {
+  content: "";
+  position: absolute;
+  right: 100%;
+  width: 0;
+  height: 0;
+  border-top: 13px solid transparent;
+  border-right: 26px solid #DAB929;
+  border-bottom: 13px solid transparent; }
+
+.wingLeft {
+  border-radius: 2em;
+  width: 7.5em;
+  height: 4em;
+  position: absolute;
+  top: 10.7em;
+  left: 14.8em;
+  transform: rotate(-42deg); }
+
+.wingRight {
+  border-radius: 2em;
+  width: 7.5em;
+  height: 4em;
+  position: absolute;
+  top: 17em;
+  left: 9em;
+  transform: rotate(-45deg); }
+
+.thorax {
+  display: block;
+  width: 1.5em;
+  height: 4.6em;
+  -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+  border-radius: 80% 80% 20% 20% / 100% 100% 40% 40%;
+  position: absolute;
+  top: 14.2em;
+  left: 15.6em;
+  transform: rotate(-49deg); }
+
+.headFly {
+  border-radius: 1em;
+  width: 1.6em;
+  height: 1.6em;
+  position: absolute;
+  top: 17.8em;
+  left: 18em;
+  transform: rotate(5deg); }
+
 .container {
   width: 100%;
   box-sizing: border-box; }

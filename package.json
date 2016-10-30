@@ -1,0 +1,22 @@
+{
+  "name": "tevka-dragonfly",
+  "version": "1.0.0",
+  "description": "I had published a finished version elsewhere, but decided to move it for the sake of uncluttering an ever-growing style file.  I am also using this to practice using my own grid system. Useless and pointless to make one in a tutorial and then never use it.  That's my story, and I'm sticking with it.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ihatetoast/tevka-dragonfly.git"
+  },
+  "author": "ihatetoast",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ihatetoast/tevka-dragonfly/issues"
+  },
+  "homepage": "https://github.com/ihatetoast/tevka-dragonfly#readme",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}
