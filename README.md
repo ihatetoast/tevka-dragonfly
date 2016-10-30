@@ -14,8 +14,11 @@ I am fascinated by her style and wanted to use her drawings as backdrops to code
 ####Hidden buttons
 ####Creating odd button shapes with CSS
 
-###### Surge: 
-tevkas-dragonfly.surge.sh
+##The Dragonfly she did in two days:
+![dragonfly drawing held by against backdrop of lake](./images/tevka_dragonfly.jpg "dragonfly drawing held by Tevka")
 
-##### My Codepen grid system:
-http://codepen.io/ihatetoast/pen/NRVvxq
+
+##Linky Doodle Doos:
+##### [Tevka's Dragonfly on Surge](tevkas-dragonfly.surge.sh)
+
+##### [My Codepen grid system](http://codepen.io/ihatetoast/pen/NRVvxq)
