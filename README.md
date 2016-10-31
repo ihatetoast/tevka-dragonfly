@@ -19,6 +19,6 @@ I am fascinated by her style. She used her phone to find images and refer to the
 
 
 ##Linky Doodle Doos:
-##### [Tevka's Dragonfly on Surge](tevkas-dragonfly.surge.sh)
+##### [Tevka's Dragonfly on Surge](http://tevkas-dragonfly.surge.sh)
 
 ##### [My Codepen grid system](http://codepen.io/ihatetoast/pen/NRVvxq)

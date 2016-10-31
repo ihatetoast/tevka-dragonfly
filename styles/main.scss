@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Coiny');
+
 
 body{
   background-color: #def7f6;
+  padding: 1em;
+  font-family: sans-serif;
 }
 //DIV TO KEEP WHILE WORKING ON THIS:
 .warning{
@@ -13,10 +17,14 @@ body{
 //********************//
 //     DRAGON FLY     //
 //********************//
-#dragonfly{   
-  margin-top: 0em;    
+h1{
+  font-family: 'Coiny', cursive;
+  font-size: 50px;
+}
+#dragonfly{      
+  margin: 0 auto;
   width: 30em;    
-  height: 30em;   
+  height: 29em;   
   border: 3px solid red;    
   background: url("./../images/tevka_dragonfly.jpg") no-repeat 50% 50%;    
   background-size: 30em;    
@@ -26,34 +34,21 @@ body{
   padding: 0.75em;    
   background: #BE9C3D;    
   position: relative;   
-  top: 1em;   
-  left: -5em;   
+  top: 4em;     
   -moz-border-radius: 10px;   
   -webkit-border-radius: 10px;    
   border-radius: 10px;    
   transform: rotate(-20deg);   
-}
-.parts {    
-  width: 20em;    
-  padding: 0.75em;    
-  background: #BE9C3D;    
-  position: relative;   
-  top: 1em;   
-  left: -5em;   
-  -moz-border-radius: 10px;   
-  -webkit-border-radius: 10px;    
-  border-radius: 10px;    
-  ransform: rotate(-20deg);   
 }   
 
 .parts:before {   
   content:"";   
   position: absolute;   
-  right: 100%;  
+  right: 99%;  
   width: 0;   
-  height: 0;    
+  height: 1px;    
   border-top: 13px solid transparent;   
-  border-right: 26px solid #DAB929;   
+  border-right: 26px solid #BE9C3D;   
   border-bottom: 13px solid transparent;    
 }   
     
@@ -62,39 +57,39 @@ body{
   width: 7.5em;   
   height: 4em;    
   position: absolute;   
-  top: 10.7em;    
-  left: 14.8em;   
+  top: 23.7em;
+  left: 16.8em;  
   transform: rotate(-42deg);    
 }   
 
 .wingRight{       
-  border-radius: 2em;   
+  border-radius: 2em; 
   width: 7.5em;   
   height: 4em;    
   position: absolute;   
-  top: 17em;    
-  left: 9em;    
+  top: 30em;
+  left: 11em;    
   transform: rotate(-45deg);    
 }
 .thorax {
   display: block;   
-  width: 1.5em;   
-  height: 4.6em;    
+  width: 1.5em;
+  height: 5.6em;   
   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;   
   border-radius: 80% 80% 20% 20% / 100% 100% 40% 40%;   
   position: absolute;   
-  top: 14.2em;    
-  left: 15.6em;   
+  top: 26em;
+  left: 16.9em;  
   transform: rotate(-49deg);    
 }   
 
 .headFly {  
-  border-radius: 1em;   
+  border-radius: 1em;  
   width: 1.6em;   
   height: 1.6em;    
   position: absolute;   
-  top: 17.8em;    
-  left: 18em;   
+  top: 30.5em;
+  left: 19.7em;  
   transform: rotate(5deg);    
 } 
 //********************//
@@ -124,12 +119,15 @@ body{
   width: 100%;
   float: left;
 }
-
+.dragonflyDiv{
+  margin: 0 auto;
+}
 /* media query breakpoints:
 phone 480px;
 pad 768px;
 laptop 1200 to 1600 */
-@media (min-width: 480px) {
+@media (min-width: 620px) {
+ 
   .col-1, .col-2{
     width: 49%;
     float: left;
@@ -141,6 +139,7 @@ laptop 1200 to 1600 */
 
 
 @media (min-width: 768px) {
+
   .col-1 {
     width: 33%;
     float: left;
@@ -156,11 +155,12 @@ laptop 1200 to 1600 */
   .col-4, .col-5, .col-6 {
     width: 100%;
   }
+  .dragonflyDiv{
+  text-align: left;
+}
 }
 @media (min-width: 1200px){
-  .container{
-    padding: 1em;
-  }
+
   .col-1 {
     width: 14%;
     float: left;
@@ -174,11 +174,11 @@ laptop 1200 to 1600 */
 /*     margin: 0 25%; */
   }
   .col-4{
-    width: 66%;
+    width: 100%;
     float: left;
   }
   .col-5{
-    width: 83%;
+    width: 100%;
     float: left;
   } 
   
